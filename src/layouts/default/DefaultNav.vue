@@ -4,7 +4,7 @@
       <router-link to="/" class="navbar-brand" @click.native="collapseNavbar">
         <img
           src="https://res.cloudinary.com/duvzhauq9/image/upload/v1682448814/icsLogo_psxrm0.png"
-          alt="Girl in a jacket"
+          alt=""
           width="32"
           height="32"
         />
