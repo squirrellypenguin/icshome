@@ -2,9 +2,9 @@
   <div class="container">
     <!-- <h4>Horizontal Flip</h4> -->
     <div v-for="(artist, index) in artists" :key="index" class="flip">
-      <div style="align-items:center" class="front test">
+      <div class="front">
         <h3 id="example5" class="text-shadow">{{ artist.name }}</h3>
-        <img style="align-item: center; height: 125px" :src="artist.photo1" />
+        <img style="item-align: center; height: 125px" :src="artist.photo1" />
       </div>
       <div class="back">
         <!-- Title -->

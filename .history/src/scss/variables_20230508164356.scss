@@ -11,8 +11,8 @@ $dark: #bf1b2c;
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins";
 
-@import '~bootstrap/scss/bootstrap.scss';
-@import '~bootstrap-vue/src/index.scss';
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
 // Google Fonts
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
@@ -25,7 +25,7 @@ $dark: #bf1b2c;
 $navbar-dark-color: rgba($white, .7);
 
 // REDoutline for elements
-* {border:1px solid red}
+// * {border:1px solid red}
 
 // Custom styles
 .footer {
@@ -44,7 +44,7 @@ body {
   color: #240909;
   background: #d5c9bc !important;
   text-align: center;
-  font-family: 'Anton' !important;
+  font-family: 'Anton';
   padding: 1em;
 }
 
@@ -58,7 +58,7 @@ h1 {
 
     >.front,
     >.back {
-        // display: block;
+        display: block;
         transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
         transition-duration: .5s;
         transition-property: transform, opacity;
@@ -109,7 +109,7 @@ h1 {
     width: 300px;
     >.front,
     >.back {
-    //   display: block;
+      display: block;
       color: white;
       width: inherit;
       background-size: cover!important;
@@ -218,8 +218,4 @@ h1 {
         font-size: 3rem;
     }
 
-}
-
-.test {
-    display: flex;
 }

@@ -23,7 +23,6 @@ export default {
 html {
   position: relative;
   min-height: 100%;
-  align-content: center;
 }
 body {
   margin-bottom: 60px; /* Margin bottom equal to footer height */

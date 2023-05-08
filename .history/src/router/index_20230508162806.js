@@ -5,7 +5,7 @@ import ArtistsView from '../views/ArtistsView.vue'
 import LayoutDefault from '@/layouts/default/LayoutDefault.vue'
 import VueYouTubeEmbed from 'vue-youtube-embed'
 
-Vue.component('LayoutDefault', LayoutDefault)
+Vue.component('Default', LayoutDefault)
 Vue.use(VueYouTubeEmbed)
 Vue.use(VueRouter)
 

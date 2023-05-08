@@ -23,7 +23,6 @@ export default {
 html {
   position: relative;
   min-height: 100%;
-  align-content: center;
 }
 body {
   margin-bottom: 60px; /* Margin bottom equal to footer height */
@@ -37,7 +36,7 @@ body {
   width: 100%;
   height: 60px; /* Footer height */
   line-height: 60px; /* Vertically center the text */
-  
+   background-color: $gray-100;
   text-align: center;
 }
 </style>
