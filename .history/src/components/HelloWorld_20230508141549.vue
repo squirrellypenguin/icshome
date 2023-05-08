@@ -1,6 +1,6 @@
 <template>
-  <div class="">
-   
+  <div class="hello">
+    <h1>{{ msg }}</h1>
      <div class="frontSign">
       <p class="title">Island Craft Shop</p>
       <p class="tagline">A Coopertative Community</p>
@@ -12,18 +12,44 @@
       <b-carousel id="carousel-fade" style="text-shadow: 0px 0px 2px #000" fade indicators img-width="1024" img-height="480">
         <b-carousel-slide
           caption=""
-          img-src="https://res.cloudinary.com/duvzhauq9/image/upload/v1682544835/Copy_of_IMG_4701_qbxqvt.jpg"
+          img-src="http://res.cloudinary.com/duvzhauq9/image/upload/c_limit,h_1020,w_1980/v1683505124/Halstrom4_a5hsb9_d67tqe.jpg"
         ></b-carousel-slide>
         <b-carousel-slide
           caption=""
-          img-src="https://res.cloudinary.com/duvzhauq9/image/upload/v1682419123/craftshop/IMG_4706_c7tfwe.jpg"
+          img-src="http://res.cloudinary.com/duvzhauq9/image/upload/c_limit,h_1020,w_1980/v1683505124/Halstrom4_a5hsb9_d67tqe.jpg"
         ></b-carousel-slide>
         <b-carousel-slide
           caption=""
-          img-src="https://res.cloudinary.com/duvzhauq9/image/upload/v1682419122/craftshop/IMG_4708_dmr4tu.jpg"
+          img-src="http://res.cloudinary.com/duvzhauq9/image/upload/c_limit,h_1020,w_1980/v1683505124/Halstrom4_a5hsb9_d67tqe.jpg"
         ></b-carousel-slide>
       </b-carousel>
     </div>
   </div>
 </template>
 
+<script>
+export default {
+  name: 'HelloWorld',
+  props: {
+    msg: String
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+h3 {
+  margin: 40px 0 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+</style>

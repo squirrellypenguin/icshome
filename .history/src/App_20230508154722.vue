@@ -20,13 +20,25 @@ export default {
 }
 </script>
 
-<style>
-@font-face {
-  font-family: 'art';
-  src: local('art'), url(./assets/fonts/art.otf) format('opentype');
+<style lang="scss">
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
 }
-@font-face {
-  font-family: 'anti';
-  src: local('art'), url(./assets/fonts/anti.ttf) format('truetype');
+
+nav {
+  padding: 30px;
+
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+
+    &.router-link-exact-active {
+      color: #42b983;
+    }
+  }
 }
 </style>

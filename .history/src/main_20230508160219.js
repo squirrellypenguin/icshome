@@ -3,7 +3,7 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
-import "../src/scss/variables.scss"
+import "../src/scss/app.scss"
 
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 

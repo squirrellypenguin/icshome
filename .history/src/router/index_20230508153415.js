@@ -38,24 +38,6 @@ const routes = [
     meta: {
       layout: 'default'
     }
-    },
-    {
-      path: '/media',
-      name: 'MediaDisplay',
-      // route level code-splitting
-      component: () => import('../views/MediaDisplay.vue'),
-      meta: {
-        layout: 'default'
-      }
-    },
-    {
-      path: '/Location',
-      name: 'LocationMap',
-      // route level code-splitting
-      component: () => import('@/views/LocationMap.vue'),
-      meta: {
-        layout: 'default'
-      }
     }
 ]
 

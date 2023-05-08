@@ -2,9 +2,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ArtistsView from '../views/ArtistsView.vue'
-import LayoutDefault from '@/layouts/default/LayoutDefault.vue'
+import Default from '@/layouts/default/Default.vue'
 
-Vue.component('LayoutDefault', LayoutDefault)
+Vue.component('LayoutDefault', Default)
 
 Vue.use(VueRouter)
 
@@ -38,24 +38,6 @@ const routes = [
     meta: {
       layout: 'default'
     }
-    },
-    {
-      path: '/media',
-      name: 'MediaDisplay',
-      // route level code-splitting
-      component: () => import('../views/MediaDisplay.vue'),
-      meta: {
-        layout: 'default'
-      }
-    },
-    {
-      path: '/Location',
-      name: 'LocationMap',
-      // route level code-splitting
-      component: () => import('@/views/LocationMap.vue'),
-      meta: {
-        layout: 'default'
-      }
     }
 ]
 

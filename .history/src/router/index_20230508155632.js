@@ -43,7 +43,7 @@ const routes = [
       path: '/media',
       name: 'MediaDisplay',
       // route level code-splitting
-      component: () => import('../views/MediaDisplay.vue'),
+      component: () => import('@/views/MediaDisplay.vue'),
       meta: {
         layout: 'default'
       }
