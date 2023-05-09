@@ -28,11 +28,7 @@
         ></b-carousel-slide>
         <b-carousel-slide
           caption=""
-          img-src="https://res.cloudinary.com/doammukzv/image/upload/v1682931111/Little_Guys_1_twdlmj.jpg"
-        ></b-carousel-slide>
-        <b-carousel-slide
-          caption=""
-          img-src="https://res.cloudinary.com/doammukzv/image/upload/v1682682860/Art/Halstrom6_zdisrz.jpg"
+          img-src="https://res.cloudinary.com/doammukzv/image/upload/v1682698686/Products/Davison_1_purivs.jpg"
         ></b-carousel-slide>
       </b-carousel>
     </div>
