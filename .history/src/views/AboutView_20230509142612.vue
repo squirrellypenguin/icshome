@@ -9,7 +9,7 @@
        
           <b-card class="sign" style="max-width: 20rem;" img-src="https://res.cloudinary.com/duvzhauq9/image/upload/v1682514025/ICS_logo.png" img-top>
             <b-card-text>
-               This is a member-owned and operated business focused on the arts and not profits which was founded in 1991 by a group of talented Champlain Island crafters offering quirky and beautiful products in Vermont.
+               This is a member-owned and operated business focused on the arts and not profits which was founded in 1991 by a group of talented Champlain Island crafters offering quirky and innovative products in Vermont.
             </b-card-text>
           </b-card>
  
@@ -53,10 +53,15 @@
             fiber goods; pottery; fused glass; jewelry;
             turned wood; paintings; candles; garden ornaments; and other artifacts.
 
+            You'll find gift ideas for showers, weddings, birthdays, holidays and festivities of all make.
           </b-card-text>
           <b-card-text>
-                      You'll find gift ideas for showers, weddings, birthdays, holidays and festivities of all make.
+            You will find a quirky assortment of wares 
+            
+            fiber goods; pottery; fused glass; jewelry;
+            turned wood; paintings; candles; garden ornaments; and other artifacts.
 
+            You'll find gift ideas for showers, weddings, birthdays, holidays and festivities of all make.
           </b-card-text>
         </b-card>
  

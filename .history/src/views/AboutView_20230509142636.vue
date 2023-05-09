@@ -53,10 +53,15 @@
             fiber goods; pottery; fused glass; jewelry;
             turned wood; paintings; candles; garden ornaments; and other artifacts.
 
+            You'll find gift ideas for showers, weddings, birthdays, holidays and festivities of all make.
           </b-card-text>
           <b-card-text>
-                      You'll find gift ideas for showers, weddings, birthdays, holidays and festivities of all make.
+            You will find a quirky assortment of wares 
+            
+            fiber goods; pottery; fused glass; jewelry;
+            turned wood; paintings; candles; garden ornaments; and other artifacts.
 
+            You'll find gift ideas for showers, weddings, birthdays, holidays and festivities of all make.
           </b-card-text>
         </b-card>
  
