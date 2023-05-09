@@ -44,7 +44,7 @@
           </b-card-text>
         </b-card>
     <b-card class="sign"
-          img-src=""
+          img-src="g"
           img-right
         >
           <b-card-text>

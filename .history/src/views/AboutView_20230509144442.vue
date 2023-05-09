@@ -9,7 +9,7 @@
        
           <b-card class="sign" style="max-width: 20rem;" img-src="https://res.cloudinary.com/duvzhauq9/image/upload/v1682514025/ICS_logo.png" img-top>
             <b-card-text>
-               This is a member-owned and operated business focused on the arts and not profits which was founded in 1991 by a group of talented Champlain Island crafters offering quirky and beautiful products in Vermont.  The shop moved some before planting its flag on South Hero.
+               This is a member-owned and operated business focused on the arts and not profits which was founded in 1991 by a group of talented Champlain Island crafters offering quirky and beautiful products in Vermont.
             </b-card-text>
           </b-card>
  
@@ -22,7 +22,7 @@
             <b-card-text>
              
             
-             
+              The shop moved some before planting its flag on South Hero.
 
               
             </b-card-text>
@@ -33,7 +33,7 @@
       <div class="mt-4">
         <h4>Our Forever Home</h4>
         <b-card 
-          img-src=""
+          img-src="https://res.cloudinary.com/doammukzv/image/upload/v1682705292/Products/carley1_n6qewv.jpg"
           img-alt="Card image sign"
           img-left
           class="sign mb-3"
@@ -44,7 +44,7 @@
           </b-card-text>
         </b-card>
     <b-card class="sign"
-          img-src=""
+          img-src="https://res.cloudinary.com/duvzhauq9/image/upload/v1682544836/149910514_3887316754654010_3004611292622882000_n_h5zuxz.png"
           img-right
         >
           <b-card-text>
@@ -65,14 +65,14 @@
     </b-container>
       <b-card
     overlay
-    img-src="https://res.cloudinary.com/duvzhauq9/image/upload/v1683658398/thread_gifi7f.png"
-    img-alt="Bannershop"
+    img-src="https://picsum.photos/900/250/?image=3"
+    img-alt="Card Image"
     text-variant="white"
     title="Image Overlay"
-    sub-title=""
+    sub-title="Subtitle"
   >
     <b-card-text>
-       You'll find gift ideas for showers, weddings, birthdays, holidays and festivities of all make.
+      Some quick example text to build on the card and make up the bulk of the card's content.
     </b-card-text>
   </b-card>
   </div>

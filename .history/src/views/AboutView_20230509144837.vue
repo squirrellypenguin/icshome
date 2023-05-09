@@ -44,7 +44,7 @@
           </b-card-text>
         </b-card>
     <b-card class="sign"
-          img-src=""
+          img-src="https://res.cloudinary.com/duvzhauq9/image/upload/v1682544836/149910514_3887316754654010_3004611292622882000_n_h5zuxz.png"
           img-right
         >
           <b-card-text>
@@ -65,8 +65,8 @@
     </b-container>
       <b-card
     overlay
-    img-src="https://res.cloudinary.com/duvzhauq9/image/upload/v1683658398/thread_gifi7f.png"
-    img-alt="Bannershop"
+    img-src="https://picsum.photos/900/250/?image=3"
+    img-alt="Card Image"
     text-variant="white"
     title="Image Overlay"
     sub-title=""

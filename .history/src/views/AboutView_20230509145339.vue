@@ -44,7 +44,7 @@
           </b-card-text>
         </b-card>
     <b-card class="sign"
-          img-src=""
+          img-src="https://res.cloudinary.com/duvzhauq9/image/upload/v1682544836/149910514_3887316754654010_3004611292622882000_n_h5zuxz.png"
           img-right
         >
           <b-card-text>
