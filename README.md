@@ -1,5 +1,6 @@
 # icshome
 
+## ISLAND CRAFT SHOP SITE
 ## Project setup
 ```
 npm install
