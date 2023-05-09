@@ -2,9 +2,8 @@
 
 <div class="container">
   <div class="row">
-    <div class="col">
+    <div class="col video-container"><div>
 <h1>Take a tour</h1>
-<div class="video-container">
 <iframe src="https://www.youtube.com/embed/nmsZRw-RWYI" title="2017 Island Craft Shop South Hero Vermont 05486" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div></div>
     <div class="col"><ul>

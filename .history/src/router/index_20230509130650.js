@@ -50,7 +50,7 @@ const routes = [
       }
     },
     {
-      path: '/events',
+      path: '/eventList',
       name: 'EventList',
       // route level code-splitting
       component: () => import('@/views/EventList.vue'),
