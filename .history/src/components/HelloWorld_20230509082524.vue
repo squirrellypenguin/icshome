@@ -5,7 +5,7 @@
       <p class="title">Island Craft Shop</p>
       <p class="tagline">A Coopertative Community</p>
       <p class="place">Located in South Hero</p>
-      <p class="oldest">The oldest <a style="color:#bf1b2c" href="/#/artists">artisan</a> cooperative in the Lake Champlain Region</p>
+      <p class="oldest">The oldest <a style="color:#bf1b2c" href="/artists">artisan</a> cooperative in the Lake Champlain Region</p>
       </div>
     <div class="text-center">
    
