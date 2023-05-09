@@ -37,7 +37,7 @@ export default {
 
   data() {
     return {
-      fbUrls: [],
+      artists: [],
       errors: [],
       videoid: "nmsZRw-RWYI"
     }
