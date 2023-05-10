@@ -11,14 +11,11 @@
   </b-row>
 
   <b-row>
-    <b-col>05</b-col>
-    <b-col></b-col>
-  </b-row>
-   <b-row>
-    <b-col>Join us of our annual Birthday Bash - this year we are celebrating 32 years! </b-col>
+    <b-col sm="4">05</b-col>
+    <b-col sm="8">Food, Music, Silent Auction and lots of Crafts</b-col>
   </b-row>
     <b-row>
-    <b-col>Food, Music, Silent Auction and lots of Crafts </b-col>
+    <b-col sm="12">Join us of our annual Birthday Bash - this year we are celebrating 32 years! </b-col>
   </b-row>
 </b-container>
 
