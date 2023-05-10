@@ -6,8 +6,8 @@
 
 <b-container class="bv-example-row">
   <b-row>
-    <b-col sm="4">AUG</b-col>
-    <b-col sm="8">11:00AM to 3:00PM</b-col>
+    <b-col sm="4">Month</b-col>
+    <b-col sm="8">TIme</b-col>
   </b-row>
 
   <b-row>
@@ -19,7 +19,10 @@
   </b-row>
 </b-container>
 
-    
+AUG   11AM to 3PM BIRTHDAY BASH 
+05    
+2023  
+      
 
     </div>
 </template>

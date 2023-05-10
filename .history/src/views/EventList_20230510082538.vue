@@ -6,20 +6,22 @@
 
 <b-container class="bv-example-row">
   <b-row>
-    <b-col sm="4">AUG</b-col>
-    <b-col sm="8">11:00AM to 3:00PM</b-col>
+    <b-col sm="4">col-sm-4</b-col>
+    <b-col sm="4">col-sm-4</b-col>
+    <b-col sm="4">col-sm-4</b-col>
   </b-row>
 
   <b-row>
-    <b-col sm="4">05</b-col>
-    <b-col sm="8">Food, Music, Silent Auction and lots of Crafts</b-col>
-  </b-row>
-    <b-row>
-    <b-col sm="12">Join us of our annual Birthday Bash - this year we are celebrating 32 years! </b-col>
+    <b-col sm>col-sm</b-col>
+    <b-col sm="8">col-sm-8</b-col>
+    <b-col sm="8">col-sm-8</b-col>
   </b-row>
 </b-container>
 
-    
+AUG   11AM to 3PM BIRTHDAY BASH 
+05    Join us of our annual Birthday Bash - this year we are celebrating 32 years! 
+2023  Food, Music, Silent Auction and lots of Crafts 
+      
 
     </div>
 </template>

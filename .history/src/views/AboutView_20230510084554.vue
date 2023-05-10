@@ -1,5 +1,5 @@
 <template>
-<div>
+
 
   <b-card>
     <b-media no-body>
@@ -13,7 +13,8 @@
           This is a member-owned and operated business focused on the arts and not profits which was founded in 1991 by a group of talented Champlain Island crafters offering quirky and beautiful products in Vermont. The shop moved some before planting its flag on South Hero. 
         </p>
         <p class="mb-0">
-          The shop has grown into a must-see destination for Islanders and visitors alike. Over twenty members now exhibit a wide-ranging array of unique crafts. 
+          Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+          natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
         </p>
 
         <b-media>
@@ -21,11 +22,11 @@
             <b-img blank blank-color="#ccc" width="64" alt="placeholder"></b-img>
           </template>
           <h5 class="mt-0">Nested Media</h5>
-           You will find a quirky assortment of wares fiber goods; pottery; fused glass; jewelry; turned wood; paintings; candles; garden ornaments; and other artifacts.
+          Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
+          faucibus.
         </b-media>
       </b-media-body>
     </b-media>
   </b-card>
-You'll find gift ideas for showers, weddings, birthdays, holidays and festivities of all make.
-</div>
+
 </template>

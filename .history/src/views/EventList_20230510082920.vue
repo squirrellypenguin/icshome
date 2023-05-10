@@ -19,7 +19,10 @@
   </b-row>
 </b-container>
 
-    
+AUG   11AM to 3PM BIRTHDAY BASH 
+05    
+2023  
+      
 
     </div>
 </template>
