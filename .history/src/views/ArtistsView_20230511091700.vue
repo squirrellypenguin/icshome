@@ -97,7 +97,7 @@ export default {
   // Fetches posts when the component is created.
   async created() {
     try {
-      const response = await axios.get('https://www.googleapis.com/drive/v2/files/155p_Xd3ljjiTMweuA0O1ewPPitNeCNpS')
+      const response = await axios.get('https://drive.google.com/file/d/155p_Xd3ljjiTMweuA0O1ewPPitNeCNpS/view?usp=sharing')
       // https://sheet.best/api/sheets/06fc3b51-300c-40ce-a5ef-76c218e62cdd')
       
       console.log(response.data[1])

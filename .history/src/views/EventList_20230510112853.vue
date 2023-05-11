@@ -15,10 +15,10 @@
     <b-col></b-col>
   </b-row>
    <b-row>
-    <b-col class="text-left">Join us of our annual Birthday Bash - this year we are celebrating 32 years! </b-col>
+    <b-col>Join us of our annual Birthday Bash - this year we are celebrating 32 years! </b-col>
   </b-row>
     <b-row>
-    <b-col class="text-left">Food, Music, Silent Auction, and lots of Crafts </b-col>
+    <b-col>Food, Music, Silent Auction, and lots of Crafts </b-col>
   </b-row>
 </b-container>
 
