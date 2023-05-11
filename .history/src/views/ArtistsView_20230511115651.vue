@@ -4,7 +4,7 @@
     <div v-for="(artist, index) in artists" :key="index" class="flip">
       <div style="align-items:center" class="front test">
         <h3 id="example5" class="text-shadow">{{index}}</h3>
-        <img style="align-item: center; height: 125px" :src="artist.photo1" />
+        <img style="align-item: center; height: 125px" :src="photo1" />
       </div>
       <div class="back">
         <!-- Title -->

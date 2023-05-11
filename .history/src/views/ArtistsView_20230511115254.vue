@@ -3,7 +3,7 @@
     <!-- <h4>Horizontal Flip</h4> -->
     <div v-for="(artist, index) in artists" :key="index" class="flip">
       <div style="align-items:center" class="front test">
-        <h3 id="example5" class="text-shadow">{{index}}</h3>
+        <h3 id="example5" class="text-shadow">{{ index}}</h3>
         <img style="align-item: center; height: 125px" :src="artist.photo1" />
       </div>
       <div class="back">
@@ -82,7 +82,7 @@
 <script>
 // @ is an alias to /src
 // import axios from 'axios'
-  import artistsData from "../../artistList.json"
+  import artistsData from "../../craftShop.json"
 export default {
   name: 'ArtistsGallery',
   components: {},
