@@ -10,7 +10,7 @@
     <div class="col text-left">
     <p>Past years photo albums</p>
    
-       <div class="text-center" v-for="(link, index) in links" :key="index">
+       <div v-for="(link, index) in links" :key="index">
     <a :href="index">{{link.year}}</a>
     </div>
 

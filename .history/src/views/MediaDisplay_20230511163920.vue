@@ -7,10 +7,10 @@
 <div class="video-container">
 <iframe src="https://www.youtube.com/embed/nmsZRw-RWYI" title="2017 Island Craft Shop South Hero Vermont 05486" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div></div>
-    <div class="col text-left">
-    <p>Past years photo albums</p>
+    <div class="col">
+    <p>Past year photo albums</p>
    
-       <div class="text-center" v-for="(link, index) in links" :key="index">
+       <div v-for="(link, index) in links" :key="index">
     <a :href="index">{{link.year}}</a>
     </div>
 
