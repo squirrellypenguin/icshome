@@ -36,7 +36,7 @@
         ></b-carousel-slide>
       </b-carousel>
       <div v-for="(message, index) in message" :key="index">
-            <b-card bg-variant="primary" text-variant="white" :header="message.title" class="text-center">
+            <b-card bg-variant="primary" text-variant="white" :header=" $message.title" class="text-center">
         <b-card-text>{{message.body}}</b-card-text>
       </b-card>
       </div>

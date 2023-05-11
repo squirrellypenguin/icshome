@@ -1,0 +1,7 @@
+{
+  "message"
+     : {
+      "body": "Body of a message",
+      "title": "Title of message"
+    }
+}

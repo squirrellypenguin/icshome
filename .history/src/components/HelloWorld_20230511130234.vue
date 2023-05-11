@@ -35,11 +35,9 @@
           img-src="https://res.cloudinary.com/doammukzv/image/upload/v1682682860/Art/Halstrom6_zdisrz.jpg"
         ></b-carousel-slide>
       </b-carousel>
-      <div v-for="(message, index) in message" :key="index">
-            <b-card bg-variant="primary" text-variant="white" :header="message.title" class="text-center">
-        <b-card-text>{{message.body}}</b-card-text>
+            <b-card bg-variant="primary" text-variant="white" header="Primary" class="text-center">
+        <b-card-text>{{message.0.body}}</b-card-text>
       </b-card>
-      </div>
     </div>
   </div>
 </template>

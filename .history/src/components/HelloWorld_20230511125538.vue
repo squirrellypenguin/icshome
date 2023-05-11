@@ -35,21 +35,19 @@
           img-src="https://res.cloudinary.com/doammukzv/image/upload/v1682682860/Art/Halstrom6_zdisrz.jpg"
         ></b-carousel-slide>
       </b-carousel>
-      <div v-for="(message, index) in message" :key="index">
-            <b-card bg-variant="primary" text-variant="white" :header="message.title" class="text-center">
-        <b-card-text>{{message.body}}</b-card-text>
+            <b-card v-for="(message, index) in message" :key="index" bg-variant="primary" text-variant="white" header="Primary" class="text-center">
+        <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
       </b-card>
-      </div>
     </div>
   </div>
 </template>
 
 <script>
-import messageData from "../../dailyMessage.json";
+import message from "../../dailyMessage.json";
 export default {
   data() {
     return {
-      message: messageData,    };
+      users: message,    };
   },
 };
 </script>
