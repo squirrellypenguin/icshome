@@ -4,7 +4,7 @@
   <b-card>
     <b-media no-body>
       <b-media-aside vertical-align="center">
-        <b-img src="https://res.cloudinary.com/duvzhauq9/image/upload/v1683658398/thread_gifi7f.png" fluid blank-color="#ccc" width="64" height="128" alt="placeholder"></b-img>
+        <b-img blank blank-color="#ccc" width="64" height="128" alt="placeholder"></b-img>
       </b-media-aside>
 
       <b-media-body>
