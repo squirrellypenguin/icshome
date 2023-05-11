@@ -5,23 +5,21 @@
 </div> -->
 
 <b-container class="bv-example-row">
- <div v-for="(event, index) in events" :key="index" class="eventEntry">
   <b-row>
-    <b-col >{{index}}</b-col>
-    <b-col>{{event.startTime}} to {{event.endTime}}</b-col>
+    <b-col >{{events}}AUG</b-col>
+    <b-col>11:00AM to 3:00PM</b-col>
   </b-row>
 
   <b-row>
-    <b-col>{{event.date}}</b-col>
+    <b-col>05</b-col>
     <b-col></b-col>
   </b-row>
    <b-row>
-    <b-col class="text-left">{{event.message}} </b-col>
+    <b-col class="text-left">Join us of our annual Birthday Bash - this year we are celebrating 32 years! </b-col>
   </b-row>
     <b-row>
-    <b-col class="text-left">{{event.tagLine}}</b-col>
+    <b-col class="text-left">Food, Music, Silent Auction, and lots of Crafts </b-col>
   </b-row>
-  </div>
 </b-container>
 
     
@@ -34,7 +32,7 @@ import eventsData from "../../eventsList.json";
 export default {
   data() {
     return {
-      events: eventsData,     };
+      message: eventsData, events    };
   },
 };
 </script>

@@ -19,7 +19,7 @@
     <b-col class="text-left">{{event.message}} </b-col>
   </b-row>
     <b-row>
-    <b-col class="text-left">{{event.tagLine}}</b-col>
+    <b-col class="text-left">Food, Music, Silent Auction, and lots of Crafts </b-col>
   </b-row>
   </div>
 </b-container>

@@ -19,7 +19,7 @@
     <b-col class="text-left">{{event.message}} </b-col>
   </b-row>
     <b-row>
-    <b-col class="text-left">{{event.tagLine}}</b-col>
+    <b-col class="text-left">{{event.tagline}}</b-col>
   </b-row>
   </div>
 </b-container>
