@@ -8,11 +8,9 @@
 <iframe src="https://www.youtube.com/embed/nmsZRw-RWYI" title="2017 Island Craft Shop South Hero Vermont 05486" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div></div>
     <div class="col">
-    <ul>
-       <li v-for="(link, index) in links" :key="index">
-    <a :href="index">{{link.year}}</a>.
-</li>
-</ul>
+    
+
+
     
     
     </div>
@@ -25,11 +23,22 @@
 
 
 <script>
-import linksData from "../../photoLinks.json";
+// @ is an alias to /src
+import axios from 'axios'
+
 export default {
+  name: 'ArtistsGallery',
+  components: {},
+
   data() {
     return {
-      links: linksData,    };
+      fbUrls: [],
+      errors: [],
+      videoid: "nmsZRw-RWYI"
+    }
   },
-};
+
+  // Fetches posts when the component is created.
+
+}
 </script>

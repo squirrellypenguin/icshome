@@ -9,8 +9,9 @@
 </div></div>
     <div class="col">
     <ul>
-       <li v-for="(link, index) in links" :key="index">
-    <a :href="index">{{link.year}}</a>.
+    {{links}}
+     <li v-for="(link, index) in links" :key="index">
+    <a :href="index.link">{{index.link.year}}</a>.
 </li>
 </ul>
     
